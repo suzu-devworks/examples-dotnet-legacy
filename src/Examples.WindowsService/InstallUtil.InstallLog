@@ -1,0 +1,18 @@
+﻿
+トランザクションのインストールを実行中です。
+
+インストール段階を開始しています。
+C:\Users\akira\GitHub\examples-dotnet-legacy\src\Examples.WindowsService\bin\Debug\Examples.WindowsService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\akira\GitHub\examples-dotnet-legacy\src\Examples.WindowsService\bin\Debug\Examples.WindowsService.InstallLog にあります。
+
+インストール段階で例外が発生しました。
+System.InvalidOperationException: '.' コンピューターのサービス コントロール マネージャーを開けません。このオペレーティング システムには他の特権が必要です。
+内部例外 System.ComponentModel.Win32Exception が、以下のエラー メッセージを伴ってスローされました: アクセスが拒否されました。
+
+インストールのロールバックを開始しています。
+C:\Users\akira\GitHub\examples-dotnet-legacy\src\Examples.WindowsService\bin\Debug\Examples.WindowsService.exe アセンブリの進行状態については、ログ ファイルの内容を参照してください。
+ファイルは C:\Users\akira\GitHub\examples-dotnet-legacy\src\Examples.WindowsService\bin\Debug\Examples.WindowsService.InstallLog にあります。
+
+ロールバックの段階が正常に完了しました。
+
+トランザクション インストールが完了しました。
