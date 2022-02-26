@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,14 +55,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Examples.Assemblies.Abstruct\Examples.Assemblies.Abstract.csproj">
-      <Project>{dc14e9fe-946f-46f5-b9bc-592c5ad8088a}</Project>
-      <Name>Examples.Assemblies.Abstract</Name>
+    <ProjectReference Include="..\Examples.Assemblies\Examples.Assemblies.csproj">
+      <Project>{ae531ac2-9955-47c2-8c93-7d748bf4d0d9}</Project>
+      <Name>Examples.Assemblies</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*" "$(SolutionDir)src\Examples.Assemblies.Console\$(OutDir)Copies\" /Y
+    <PostBuildEvent>xcopy "$(TargetDir)*" "$(SolutionDir)src\Examples.ConsoleApp\$(OutDir)Prugins\" /Y
+
+
+
 </PostBuildEvent>
   </PropertyGroup>
 </Project>

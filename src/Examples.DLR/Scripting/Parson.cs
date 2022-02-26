@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Examples.DLR.Scripting
+﻿namespace Examples.DLR.Scripting
 {
     public class Parson
     {

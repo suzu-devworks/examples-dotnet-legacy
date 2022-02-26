@@ -93,7 +93,7 @@ namespace Examples.DLR.ExcelCom
             {
                 for (int j = 0; j < data.GetUpperBound(1); j++)
                 {
-                    Console.Write($"[{i},{j}] = {data[i,j]}" );
+                    Console.Write($"[{i},{j}] = {data[i, j]}");
                     Console.Write(" ");
                 }
                 Console.WriteLine();
