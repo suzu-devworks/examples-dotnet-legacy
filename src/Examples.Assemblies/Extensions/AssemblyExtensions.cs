@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Reflection;
 
-namespace Examples.ConsoleApp.Extensions
+namespace Examples.Assemblies.Extensions
 {
-    internal static class AssemblyExtensions
+    public static class AssemblyExtensions
     {
         public static string GetFileName(this Assembly assembly)
         {

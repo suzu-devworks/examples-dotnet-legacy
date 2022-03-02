@@ -62,10 +62,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*" "$(SolutionDir)src\Examples.ConsoleApp\$(OutDir)Prugins\" /Y
-
-
-
+    <PostBuildEvent>xcopy "$(TargetDir)*" "$(SolutionDir)src\Examples.Assemblies.ConsoleApp\$(OutDir)Prugins\" /Y
 </PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Reflection;
 using Examples.Assemblies.AppDomains;
-using Examples.ConsoleApp.Extensions;
+using Examples.Assemblies.Extensions;
 using Mono.Options;
 
-namespace Examples.ConsoleApp.Applications
+namespace Examples.Assemblies.Applications
 {
     internal class AssemblyExampleCommand : Command
     {

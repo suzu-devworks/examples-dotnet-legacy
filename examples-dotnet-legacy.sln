@@ -18,7 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.WCF", "src\Example
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.Assemblies", "src\Examples.Assemblies\Examples.Assemblies.csproj", "{AE531AC2-9955-47C2-8C93-7D748BF4D0D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.ConsoleApp", "src\Examples.ConsoleApp\Examples.ConsoleApp.csproj", "{09A52782-3716-4F1D-9569-3CDB75381B01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.Assemblies.ConsoleApp", "src\Examples.Assemblies.ConsoleApp\Examples.Assemblies.ConsoleApp.csproj", "{09A52782-3716-4F1D-9569-3CDB75381B01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{44A7649C-BCFF-4276-B44A-D18094BEDFDD} = {44A7649C-BCFF-4276-B44A-D18094BEDFDD}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

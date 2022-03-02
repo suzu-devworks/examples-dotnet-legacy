@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Examples.ConsoleApp.Extensions;
+using Examples.Assemblies.Extensions;
 using Mono.Options;
 
-namespace Examples.ConsoleApp
+namespace Examples.Assemblies
 {
     internal class Program
     {

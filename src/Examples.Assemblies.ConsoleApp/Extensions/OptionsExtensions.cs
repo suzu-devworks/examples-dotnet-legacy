@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Mono.Options;
 
-namespace Examples.ConsoleApp.Extensions
+namespace Examples.Assemblies.Extensions
 {
     internal static class OptionsExtensions
     {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{09A52782-3716-4F1D-9569-3CDB75381B01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Examples.ConsoleApp</RootNamespace>
-    <AssemblyName>Examples.ConsoleApp</AssemblyName>
+    <RootNamespace>Examples.Assemblies</RootNamespace>
+    <AssemblyName>Examples.Assemblies.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Applications\AssemblyExampleCommand.cs" />
-    <Compile Include="Extensions\AssemblyExtensions.cs" />
     <Compile Include="Extensions\OptionsExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
